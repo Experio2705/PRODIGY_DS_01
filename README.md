@@ -1,70 +1,31 @@
-Prodigy InfoTech – Data Science Internship Tasks
-Overview
-This repository houses my progress across multiple Data Science internship assignments for Prodigy InfoTech. Each task explores a different aspect of data science—from visualizing distributions to sentiment analysis and machine learning.
+Task 01 – Data Visualization with Power BI
+Objective
+Visualize the distribution of survival rates across gender, passenger class, and age groups using the Titanic dataset, and extract actionable insights.
 
-Repository Structure
-bash
-Copy
-Edit
-PRODIGY_DS_01/
-│
-├── Task1/
-│   ├── Task1.pbix        # Power BI report for Task 01
-│   ├── Task1-pdf.pdf      # Exported visuals or summary
-│   ├── data/              # Source data files (Excel, CSV)
-│   └── README.md          # Overview for Task 01
-│
-├── Task2/
-│   └── README.md          # Explanation & insights for Task 02
-│
-├── Task3/
-│   └── README.md          # Explanation & insights for Task 03
-│
-├── Task4/
-│   └── README.md          # Explanation & insights for Task 04
-│
-└── README.md              # This overview file
-How to Use This Repository
-Browse individual task folders to find the relevant Power BI files, data sources, and documentation.
+Tools & Technologies
+Power BI Desktop
 
-Each task-specific README.md provides context, methodology, tools used, and key insights.
+Dataset: Titanic Dataset (Kaggle)
 
-If you'd like to reproduce or explore my work:
+Techniques: Data Cleaning, Exploratory Data Analysis (EDA), Visualization
 
-Clone the repository:
+Process
+Imported dataset into Power BI.
 
-bash
-Copy
-Edit
-git clone https://github.com/Experio2705/PRODIGY_DS_01.git
-Navigate to your task of interest and follow the individual instructions.
+Cleaned data by handling missing values and formatting columns.
 
-Tools & Technologies Used Across Tasks
-Power BI Desktop – for building interactive, compelling visualizations and reports.
+Created bar charts and histograms to show trends.
 
-Python (Jupyter Notebooks) – for data cleaning, analysis, model building, and EDA.
+Analyzed patterns and relationships in the dataset.
 
-Data Visualization Libraries – such as Matplotlib, Seaborn, and others depending on the task.
+Key Insights
+Female passengers had a significantly higher survival rate than males.
 
-Tasks Overview
-Task 01: Visualized the distribution of population demographics (age/gender) with bar charts/histograms to derive insights using Life Expectancy or population data.
+First-class passengers had better survival chances compared to other classes.
 
-Task 02: Performed EDA and data cleaning on a dataset (e.g., Titanic), exploring variable relationships and trends.
+Children (0–9 years) had higher survival rates compared to older passengers.
 
-Task 03: Built and evaluated a decision tree classifier to predict customer purchase behavior using demographic and behavioral input.
+How to View
+Download the .pbix file in this folder.
 
-Task 04: Conducted sentiment analysis on social media posts to understand public opinions and visualize sentiment distribution.
-
-Why This Project Matters
-Demonstrates a holistic workflow—from raw data to insights.
-
-Highlights cross-functional skills: data ingestion, cleaning, visualization, modeling, and interpretation.
-
-Suitable for sharing as part of a professional portfolio or LinkedIn showcase.
-
-Connect With Me
-I’d love feedback or collaboration opportunities! Reach out via:
-
-GitHub: @Experio2705
-
-Email: aryanshinde2705@gmail.com
+Open it in Power BI Desktop to explore the visuals.
